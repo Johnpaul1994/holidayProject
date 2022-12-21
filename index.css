@@ -63,8 +63,8 @@ button{
     color: white;
     display: flex;
     margin-top: 7rem;
-    padding-left: 10rem;
-    align-items: center;
+    padding-left: 13rem;
+    /* align-items: center; */
     gap: 3rem;
     padding-bottom: 4rem;
     text-align: center;
@@ -78,7 +78,9 @@ button{
     display: flex;
     color: white;
     margin-top: 7rem;
-    align-items: center;
+    /* align-items: center; */
+    padding-left: 13rem;
+    padding-right: 13rem;
     gap: 3rem;
 }
 
@@ -103,6 +105,7 @@ h2{
     font-size: 17px;
     display: flex;
     gap: 4rem;
+    /* padding-left: 50px; */
 }
 
 .fourth{
@@ -118,11 +121,25 @@ h2{
 
 .fourth-sect{
     margin-top: 7rem;
+    padding-left: 10rem;
+    padding-bottom: 4rem;
 }
 
 .box {
-    background-color: black;
-    border: 2px solid grey;
+    background-color: rgb(15, 8, 8);
+    border: 2px solid rgb(8, 2, 2);
     border-radius: 10px;
+    box-shadow: 2px 5px 10px rgb(8, 6, 6);
+    width: 350px;
+    /* height: auto; */
+    /* align-items: center; */
+    padding: 10px 10px;
+    text-align: center;
 }
+
+span {
+    font-size: 12px;
+}
+
+
 
