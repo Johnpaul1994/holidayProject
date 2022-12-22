@@ -131,15 +131,18 @@ h2{
     border-radius: 10px;
     box-shadow: 2px 5px 10px rgb(8, 6, 6);
     width: 350px;
-    /* height: auto; */
-    /* align-items: center; */
     padding: 10px 10px;
-    text-align: center;
 }
+
 
 span {
     font-size: 12px;
 }
+
+.fifth-sect {
+    color: white;
+}
+
 
 
 
