@@ -5,13 +5,14 @@
 }
 /* body */
 body{
-    background-color: black;
-    /* background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)); */
+    background: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 
 }
 /* navbar */
 .navbar {
-    background-color: black;
+    background: url(/assets/bg-curvy-desktop.svg) hsl(218, 28%, 13%);
     display: flex;
     justify-content: space-between;
     padding: 40px 50px;
@@ -58,7 +59,7 @@ button{
 }
 /* second-section */
 .second-sect{
-    background: url(/assets/bg-curvy-desktop.svg), rgba(0, 0, 0, 0.60);
+    background: url(/assets/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     color: white;
     display: flex;
@@ -100,9 +101,9 @@ h2{
     color: white;
 }
 
-.fourth-sect{
+.box-container {
     color: white;
-    font-size: 17px;
+    /* font-size: 17px; */
     display: flex;
     gap: 4rem;
     /* padding-left: 50px; */
@@ -115,23 +116,27 @@ h2{
 }
 
 .qoute{
-    width: 30px;
+    width: 40px;
    height: auto;
+ position: absolute;
+ bottom: 280px;
+ left: 150px;
+ z-index: -1;
 }
 
 .fourth-sect{
+    position: relative;
     margin-top: 7rem;
     padding-left: 10rem;
     padding-bottom: 4rem;
 }
 
+
 .box {
-    background-color: rgb(15, 8, 8);
-    border: 2px solid rgb(8, 2, 2);
-    border-radius: 10px;
-    box-shadow: 2px 5px 10px rgb(8, 6, 6);
+    background-color:  hsl(219, 30%, 18%);
+    border-radius: 5px;
     width: 350px;
-    padding: 10px 10px;
+    padding: 40px 15px 30px 15px;
 }
 
 
