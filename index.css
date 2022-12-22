@@ -79,7 +79,7 @@ button{
     display: flex;
     color: white;
     margin-top: 7rem;
-    /* align-items: center; */
+    align-items: center;
     padding-left: 13rem;
     padding-right: 13rem;
     gap: 3rem;
@@ -93,9 +93,7 @@ h2{
     margin-top: 1.5rem;
 }
 
-.content3 p{
-    font-size: 22px;
-}
+
 
 .fylo{
     color: white;
@@ -105,8 +103,11 @@ h2{
     color: white;
     /* font-size: 17px; */
     display: flex;
-    gap: 4rem;
-    /* padding-left: 50px; */
+    gap: 3rem;
+    padding-left: 90px;
+    margin: auto;
+    width: 100%;
+    margin-top: 5rem;
 }
 
 .fourth{
@@ -119,8 +120,8 @@ h2{
     width: 40px;
    height: auto;
  position: absolute;
- bottom: 280px;
- left: 150px;
+ bottom: 239px;
+ left: 73px;
  z-index: -1;
 }
 
@@ -138,7 +139,7 @@ h2{
     border-radius: 5px;
     width: 350px;
     padding: 40px 15px 30px 15px;
-    text-align: justify;
+
 }
 
 .contain {
