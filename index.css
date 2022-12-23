@@ -173,7 +173,7 @@ span {
     margin-left: 300px;
     text-align: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     margin-top: 100px;
 }
 
@@ -198,4 +198,33 @@ label input {
     font-size: 15px;
     border-radius: 50px;
     border: none;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    gap: 3rem;
+}
+
+.inside-first {
+    display: flex;
+    gap: 1rem;
+}
+
+.second-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.third-footer {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon1 {
+    flex-direction: column;
 }
