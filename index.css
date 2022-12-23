@@ -175,6 +175,7 @@ span {
     align-items: center;
     margin-bottom: 1px;
     margin-top: 100px;
+    /* position: absolute; */
 }
 
 .fifth-sect p{
@@ -208,8 +209,14 @@ footer {
     padding-top: 100px;
     padding-bottom: 50px;
     gap: 3rem;
+    position: relative;
+    top: 2px;
+    align-items: center;
 }
 
+.first-footer .for-footer {
+    padding-top: 10px;
+}
 .inside-first {
     display: flex;
     gap: 1rem;
@@ -226,5 +233,7 @@ footer {
 }
 
 .icon1 {
-    flex-direction: column;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
 }
