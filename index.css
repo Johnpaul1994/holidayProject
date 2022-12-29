@@ -99,6 +99,7 @@ h2{
 
 .fylo{
     color: white;
+    font-size: medium;
     /* padding-top: 15px; */
 }
 
@@ -208,11 +209,12 @@ footer {
     padding-top: 150px;
     padding-bottom: 50px;
     gap: 3rem;
-    /* position: relative; */
     top: 2px;
-    align-items: center;
     margin-top: 15.5rem;
+}
 
+li{
+    text-decoration: none;
 }
 
 .first-footer .for-footer {
@@ -221,6 +223,7 @@ footer {
 .inside-first {
     display: flex;
     gap: 1rem;
+    padding-top: 50px;
 }
 
 .second-footer {
@@ -242,4 +245,21 @@ gap: 0.5rem;
 .icon-sect i{
     border: 1px solid white;
     border-radius: 50%;
+    padding: 4px 4px;
 }
+ 
+.icon-sect i:hover {
+    color: hsl(200, 100%, 62%);
+    cursor: pointer;
+}
+
+.pick-all {
+    margin-top: 100px;
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+  
+
