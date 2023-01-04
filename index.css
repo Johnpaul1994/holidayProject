@@ -259,6 +259,19 @@ gap: 0.5rem;
     gap: 3rem;
 }
 
+@media (min-width: 375px) {
+    body {
+        width: 100vw;  
+    }
+
+    /* .navbar {
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* width: 75vw; */
+     */
+} 
 
 
   
