@@ -259,16 +259,16 @@ gap: 0.5rem;
     gap: 3rem;
 }
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media  (min-width: 375px) and (max-width: 600px) {
     body {
-        width: 80vw; 
+        width: 100vw; 
         padding: 4.6rem 0rem; 
     }
 
     .navbar {
         align-items: center;
         justify-content: space-between;
-        padding-left: 20px;
+        padding-left: 2px;
       
         width: 75vw;
     }
@@ -280,6 +280,8 @@ gap: 0.5rem;
     .second-sect {
         background-position: right center;
     }
+
+
 } 
 
 
