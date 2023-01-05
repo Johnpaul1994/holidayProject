@@ -378,6 +378,27 @@ gap: 0.5rem;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    footer {
+        flex-direction: column;
+        padding-left: 14px;
+    }
+
+    .pick-all {
+        flex-direction: column;
+    }
+
+    .second-footer {
+        margin-top: 10px;
+    }
+
+    .third-footer {
+        flex-direction: column;
+    }
+
+    .icon-sect {
+        text-align: center;
+    }
   }
 
 
