@@ -30,13 +30,40 @@ li {
     cursor: pointer;
 }
 
-li:hover{
+.navList ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.navList ul li {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    position: relative;
+}
+
+.navList ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: hsl(176, 68%, 64%);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+/* li:hover{
     text-decoration: underline;
     text-decoration-color: aqua;
     transition: 3s;
-    text-decoration-thickness: 2px;
-}
+} */
 /* hero-section */
+
+.navList ul li:hover::after{
+    width: 100%;
+}
 .hero {
     color: #ffffff;
     font-size: 1.5rem;
@@ -306,7 +333,12 @@ gap: 0.5rem;
       margin-top: -9px;
       gap: 2rem;
       justify-content: center;
-      margin-left: 30px;
+      margin-left: 10px;
+    }
+
+    .navList ul {
+        font-size: 15px;
+        gap: 0.2px;
     }
   
     .navbar .navList {
