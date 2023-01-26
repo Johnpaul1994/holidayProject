@@ -315,16 +315,18 @@ gap: 0.5rem;
     }
 
     .navList ul {
-        font-size: 15px;
-        gap: 0.2px;
+        font-size: 10px;
+        gap: 0.01px;
+        padding-left: 10px;
     }
   
     .navbar .navList {
-      margin-left: 10px;
+      margin-left: 5px;
       align-items: center;
+      gap: 2px;
     }
     .logo img {
-      width: 80px;
+      width: 69px;
       height: auto;
     }
   
