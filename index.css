@@ -18,10 +18,14 @@ body{
     padding: 40px 50px;
     align-items: center;
 }
+
+.navbar .logo img {
+    height: 30px;
+}
 /* navList */
 .navList ul{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 }
 /* list items */
 li {
@@ -62,6 +66,11 @@ li {
     color: #ffffff;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.hero img {
+    width: 450px;
+    margin-bottom: 3rem;
 }
 
 .hero h1{
@@ -106,6 +115,10 @@ button{
     padding-left: 7rem;
     padding-right: 7rem;
     gap: 3rem;
+}
+
+.illust-img {
+    width: 20%;
 }
 
 .content3 h2{
@@ -241,6 +254,10 @@ li{
 .first-footer .for-footer {
     padding-top: 10px;
 }
+
+.first-footer img {
+     height: 30px;
+}
 .inside-first {
     display: flex;
     gap: 1rem;
@@ -280,40 +297,7 @@ gap: 0.5rem;
     gap: 3rem;
 }
 
-/* @media (max-width: 476px) {
-    body {
-        width: 100vw; 
-        padding: 2.6rem 0rem; 
-    }
 
-    .navbar {
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
-        width: 75vw;
-        /* gap: 2rem; */
-    
-
-    /* .navList ul {
-        margin-top: -9px;
-        gap: 2rem;
-        justify-content: center;
-        margin-left: 30px;
-    }
-
-    .navbar .navList {
-        margin-left: 10px;
-        align-items: center;
-    }
-    .logo img {
-        width: 80px;
-        height: auto;
-    }
-
-    .second-sect {
-        background: url(/assets/bg-curvy-desktop.svg) left center;
-    } 
-} */
 @media (max-width: 576px) {
     .navbar {
       padding-left: 15px;
